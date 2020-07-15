@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+#topMenu {
+    display: flex;
+    background-color: #302f2f;
+    margin: 0;
+    padding-inline-end: 40px;
+}
+
+#topMenu li {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+#topMenu li:first-child {
+    margin-right: auto;
+}
+
+.section1 {
+    display: flex;
+    height: 33vh;
+    background-color: #22d271;
+}
+
+.centralize {
+    margin: auto;
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    height: 33vh;
+    background-color: white;
+}
+
+.section3 {
+    display: flex;
+    height: 33vh;
+    background-color: #e5e6ea;
+}
+
+.imagemProjeto {
+    width: 25vh;    
+    height: 20vh;
+    background-color: turquoise;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+.botaoVermelho {
+    background-color: #c64e63;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
