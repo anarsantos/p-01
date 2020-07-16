@@ -18,6 +18,10 @@ h1 {
     padding-inline-end: 40px;
 }
 
+#topMenu li:first-child {
+    margin-right: auto;
+}
+
 #topMenu li {
     color: white;
     text-decoration: none;
@@ -25,8 +29,13 @@ h1 {
     padding: 15px;
 }
 
-#topMenu li:first-child {
-    margin-right: auto;
+#topMenu :link{
+    text-decoration: none;
+    color: white;
+}
+
+#topMenu :link:hover {
+    color: #c2c2a3;
 }
 
 .section1 {
@@ -58,16 +67,21 @@ h1 {
     background-color: turquoise;
 }
 
-footer {
-    background-color: black;
-    padding: 30px;
-    color: white;
-}
-
 .botaoVermelho {
     background-color: #c64e63;
     border-radius: 5px;
     color: white;
     padding: 10px;
     font-family: 'Fjalla One', sans-serif;
+}
+
+.botaoVermelho:hover {
+    cursor: pointer;
+    border: 2px solid white;    
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    color: white;
 }
